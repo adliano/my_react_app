@@ -1,19 +1,8 @@
-import React from "react";
-import Navbar from './components/NavbarComp'
-import Jumbotrom from './components/JumbotromComp'
-import Card from './components/CardComp'
-import FormsComp from './components/FormsComp'
+import React from 'react'
+import HelloDiv from './components/HelloDiv'
 
-
-function App() {
-  return (
-    <div>
-      <Navbar/>
-      <Jumbotrom/>
-      <Card/>
-      <FormsComp/> 
-    </div>
-  )
+function App () {
+  return <HelloDiv />
 }
 
-export default App;
+export default App
