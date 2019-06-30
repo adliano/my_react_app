@@ -1,5 +1,5 @@
 # Project used fro Practice with React
-### Following Activities from UCB BootcampSpot
+#### Following Activities from UCB BootcampSpot
 Each Activity will be saved as `XX-src` where `XX` its the activity number
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
