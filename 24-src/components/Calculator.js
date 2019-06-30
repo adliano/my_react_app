@@ -29,6 +29,9 @@ function Calculator() {
       <MathComp a={100} b={3} operator='*' />
       {/* <p>96 / 4 = ?</p> */}
       <MathComp a={96} b={4} operator='/' />
+      <MathComp a={96} b={0} operator='/' />
+      <MathComp a={96} b='just a text' operator='/' />
+
     </div>
   );
 }
