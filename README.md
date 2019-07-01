@@ -1,4 +1,4 @@
-# Project used fro Practice with React
+# Project used for Practice with React
 #### Following Activities from UCB BootcampSpot
 Each Activity will be saved as `XX-src` where `XX` its the activity number
 
