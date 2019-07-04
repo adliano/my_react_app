@@ -2,24 +2,14 @@ import React from 'react'
 import './style.css'
 
 class FriendCard extends React.Component {
-  /*
-  ********** Delete Event Handler ***********
-  */
- deleteEventHandler = (event) => {
-  event.preventDefault()
-  // Get parent of the x button and set display to none
-  // This will make the card disaper but will not remove from Array
-  event.target.parentElement.style.display = 'none'   
- }
- /**
-  * ************* Render **************
-  */
+  
+ /*************** Render ***************/
   render () {
-    // Destructing to make my life easier
+    // Destructing to make life easier
     // https://reactjs.org/docs/components-and-props.html
     // If destructing not use we need to use something like : `this.props.location`
     // for each attribute
-    const { name, image, occupation, location } = this.props
+    const { name, image, occupation, location, onDeletePress } = this.props
     //Returning
     return (
       <div className='card'>
@@ -39,14 +29,17 @@ class FriendCard extends React.Component {
             </li>
           </ul>
         </div>
-        <span className="remove" onClick={this.deleteEventHandler}>𝘅</span>
+        <span className="remove" onClick={onDeletePress}>𝘅</span>
       </div>
     )
   }
 }
 
 export default FriendCard
-/*
+
+
+
+/* ********** OLD CODE ****************
 function FriendCard(props) {
 
   return (
